@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <header>
+        <div class="container-header">
+            <div class="header-left"><a href="#" id="startButton" class="text-left">Home</a></div>
+            <div class="header-right">
+                <ul>
+                    <li id="aboutButton">About</li>
+                    <li id="projectsButton">Projects</li>
+                    <li id="skillsButton">Skills</li>
+                    <li id="contactButton">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="contentBody" id="contentBody">
+        <div class="homeSection" id="homeSection">
+            <div class="contentBodyLeft">
+                <div class="border">
+                    <h1 class="name">Gustavo Riteley</h1>
+                    <h2>Developer Fullstack</h2>
+                    <div class="h3Text">
+                        <h3>In a future where the web is the core of interaction, I am the developer who masters HTML,
+                            CSS, and JavaScript to build the digital bridges of tomorrow, driving innovation and
+                            redefining the user experience in every line of code.</h3>
+                    </div>
+                </div>
+                <div class="bars">
+                    <div class="barFillHtml">HTML — 90%</div>
+                    <div class="barFillCss">CSS — 75%</div>
+                    <div class="barFillJs">JavaScript — 60%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutSection" style="display: none;">
+            <div class="about-text-column">
+                <div class="aboutContent">
+                    <h1>About Me</h1>
+                    <p>Gustavo Riteley, 23 years old, fullstack developer focused on creating functional and efficient
+                        digital solutions. I work with HTML, CSS, JavaScript, and other modern technologies to transform
+                        ideas into clear and well-structured interfaces. I am a fast learner, organized, resilient, and
+                        I enjoy solving problems with logic and practicality.</p>
+                </div>
+                <div class="aboutInfo">
+                    <h1>A Little More About Me</h1>
+                    <p>As a fullstack developer, I work daily with technologies that challenge me and motivate me to
+                        grow. I am studying Russian with the goal of moving to Russia in 2026. In my free time, I
+                        practice Jiu-Jitsu, play computer games, and listen to music—activities that help me relax and
+                        sharpen my logical thinking. I am a homebody who values balance between work and leisure, as
+                        well as leisure and personal development.</p>
+                </div>
+            </div>
+            <div class="video" id="aboutVideo">
+                <video src="/assets/images/meuVideo.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+
+        <div class="projectsSection" id="projectsSection" style="display: none;">
+            <div class="projectsLeft">
+                <h1>MusaWear</h1>
+                <p>"I developed a website specialized in selling custom-made cosplay clothing. The goal was to create a
+                    practical, intuitive, and visually appealing platform, focused on user experience and full product
+                    customization.</p>
+                <img src="/assets/images/imageProject1.jpg" alt="MusaWear Project">
+            </div>
+            <div class="projectsRight">
+                <h1>Military Project</h1>
+                <p>"The project focuses on developing a platform aimed at the military sector, with an emphasis on
+                    technology, security, and strategic organization. The proposal is to create a robust and functional
+                    solution that meets the specific needs of institutions and professionals in the field, promoting
+                    efficiency, integration, and control. </p>
+                <img src="/assets/images/militaryImage.png" alt="Military Project">
+            </div>
+        </div>
+
+        <div class="skillsSection" id="skillsSection" style="display: none;">
+            <div class="chart-container">
+                <h2>Proficiency in Technologies</h2>
+                <div class="bar-chart-scroll">
+                    <div class="bar-chart">
+                        <div class="bar" style="height: 95%;"><span class="bar-label">HTML</span></div>
+                        <div class="bar" style="height: 90%;"><span class="bar-label">CSS</span></div>
+                        <div class="bar" style="height: 60%;"><span class="bar-label">JS</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">TS</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">Tailwind</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">React</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">Next.js</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">Node.js</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">Adonis</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">PHP</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">Laravel</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">React N.</span></div>
+                        <div class="bar" style="height: 20%;"><span class="bar-label">SQL</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h2>Knowledge Distribution</h2>
+                <div class="donut-chart"></div>
+                <div class="legend">
+                    <div class="legend-item"><span class="color-box" style="background-color: #FFD700;"></span>Front-End
+                        (45% )</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #E4A11B;"></span>Back-End
+                        (30%)</div>
+                    <div class="legend-item"><span class="color-box" style="background-color: #BF953F;"></span>Bancos de
+                        Dados (15%)</div>
+                    <div class="legend-item"><span class="color-box"
+                            style="background-color: #AA771C;"></span>Mobile/Outros (10%)</div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h2>Languages</h2>
+                <div class="language-bars">
+                    <div class="lang-bar-container">
+                        <span class="lang-label">Portuguese</span>
+                        <div class="lang-bar-bg">
+                            <div class="lang-bar" style="width: 100%;">Native</div>
+                        </div>
+                    </div>
+                    <div class="lang-bar-container">
+                        <span class="lang-label">Russian</span>
+                        <div class="lang-bar-bg">
+                            <div class="lang-bar" style="width: 75%;">Advanced</div>
+                        </div>
+                    </div>
+                    <div class="lang-bar-container">
+                        <span class="lang-label">English</span>
+                        <div class="lang-bar-bg">
+                            <div class="lang-bar" style="width: 30%;">Beginner</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contactSection" id="contactSection" style="display: none;">
+            <div class="contactContent">
+                <h1>Contacts</h1>
+                <div class="buttonsContainer">
+                    <div>
+                        <button class="buttonContacts" id="buttonContactGithub"> <img src="/assets/images/logo.png"
+                                alt="" width="30" height="30" </button>
+                    </div>
+                    <button class="buttonContacts" id="buttonContactLinkedin"><img src="/assets/images/linkedin.png"
+                            alt="" width="30" height="30" </button>
+                        <button class="buttonContacts" id="buttonContactEmail"><img src="/assets/images/gmail.png"
+                                alt="" width="30" height="30" </button>
+                            <button class="buttonContacts" id="buttonContactWhatsApp"><img
+                                    src="/assets/images/whatsapp.png" alt="" width="30" height="30" </button>
+                </div>
+                <p>Click to visit my profile.</p>
+            </div>
+        </div>
+
+        <div class="contentBodyRight" id="contentBodyRight">
+            <div class="video" id="homeVideo">
+                <video src="/assets/images/meuVideo2.mp4"></video>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="header.js"></script>
+    <script src="contactarea.js"></script>
+</body>
+
+</html>
